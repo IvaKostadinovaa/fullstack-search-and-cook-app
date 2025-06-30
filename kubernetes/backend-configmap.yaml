@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: search-and-cook
+data:
+  MONGO_URI: "mongodb://mongo:27017/SearchAndCook"
